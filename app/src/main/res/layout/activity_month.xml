@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".month"
+    android:background="@drawable/store">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#445">
+        <ImageView
+            android:src="@drawable/xboxicon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:layout_marginLeft="30dp"
+            android:text="SUBSCRIPTION"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/harga"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:layout_marginLeft="30dp"
+        android:text="5.99$ USD"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:id="@+id/isi"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/month"
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/month" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/card"
+        android:layout_below="@+id/isi"
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@drawable/bulet"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:text="CREDIT"/>
+    <Button
+        android:id="@+id/code"
+        android:background="@drawable/bulet"
+        android:layout_toRightOf="@+id/card"
+        android:layout_below="@+id/isi"
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:text="REDEEM"/>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/isi"
+        android:layout_marginTop="164dp"
+        android:background="#445"
+        android:orientation="horizontal" />
+
+
+</RelativeLayout>

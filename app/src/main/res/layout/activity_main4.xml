@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/store">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#445">
+        <ImageView
+            android:src="@drawable/xboxicon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:layout_marginLeft="30dp"
+            android:text="SUBSCRIPTION"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/isi"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        `<ImageButton
+        android:id="@+id/month"
+        android:src="@drawable/month"
+        android:layout_width="180dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:id="@+id/year"
+            android:layout_width="180dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/year" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/isi"
+        android:layout_marginTop="230dp"
+        android:background="#445"
+        android:orientation="horizontal" />
+
+
+</RelativeLayout>
