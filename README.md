@@ -12,7 +12,7 @@ Wireframe,UAT dan hal pendukung lainnya dapat diakses melalui link berikut: [Kli
 
 Dan berikut shortcut ke masing masing folder penting:
 
-Drawable: [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main/res/drawable) gambar dan asset lain sebagai pendukung aplikasi
+Drawable: [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main/res/drawable) gambar dan asset lain sebagai pendukung aplikasi \n
 Layout: [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main/res/layout) tampilan utama aplikasi (.xml)
 Java: [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main/java/com/example/rks)
 Android Manifest: [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main)
