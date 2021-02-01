@@ -18,6 +18,9 @@ Layout [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/
 Java [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main/java/com/example/rks)<br>
 Android Manifest [Klik Disini](https://github.com/Dia-Dio/RKSProject-1800018399/tree/main/app/src/main)<br>
 
+# Preview
+![Alt text](https://github.com/Dia-Dio/RKSProject-1800018399/blob/main/ezgif.com-gif-maker.gif)
+
 
 
 
